@@ -1,0 +1,15 @@
+export const colors = {
+  ink: "#38263D",
+  paper: "#FFF8F5",
+  muted: "#806F80",
+  gold: "#F5BE50",
+  goldDark: "#98642B",
+  card: "#FFE5EE",
+  danger: "#C93452",
+  pink: "#F2578B",
+  pinkDark: "#C7346A",
+  lavender: "#EEE5FF",
+  mint: "#DDF4EB",
+  white: "#FFFFFF",
+  border: "#F2CAD9",
+};

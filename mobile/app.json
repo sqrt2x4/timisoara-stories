@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Timișoara Stories",
+    "slug": "timisoara-stories",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "timisoara-stories",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow Timișoara Stories to show nearby historical challenges."
+        }
+      ],
+      "@maplibre/maplibre-react-native"
+    ],
+    "android": {
+      "package": "com.anonymous.timisoarastories",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.timisoarastories"
+    }
+  }
+}

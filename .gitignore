@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+node_modules/
+.expo/
+dist/
+coverage/
+.env
+backend/data/*.json
+.DS_Store
